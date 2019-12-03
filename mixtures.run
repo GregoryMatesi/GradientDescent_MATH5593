@@ -1,0 +1,2 @@
+reset; model mixtures.mod; data mixtures.dat; option solver conopt, conopt_options 'lsesqp=0'; solve; display pi;
+reset; model mixtures.mod; data mixtures.dat; option solver conopt, conopt_options 'lsesqp=1'; solve; display pi;
